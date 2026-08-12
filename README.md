@@ -35,15 +35,26 @@ An HTML-first, ahead-of-time template engine for Go. It keeps the immediate,
 mixed-markup feeling I loved on the old web, then generates typed ordinary Go
 components with contextual escaping and a small production runtime.
 
-It is a public **pre-1.0 preview**, not a supported v1 release. The site is live
-because I believe tools should earn trust in the open without pretending to be
-finished.
+**v1.0.0-beta.1 is live** as a signed, installable public beta for classrooms,
+learning, prototypes, and compatibility feedback. It is not a production
+stability promise: interfaces may still change before final v1, and native
+macOS maintainer testing remains provisional until I can run it directly.
+
+```sh
+go get gamertan.com/sandwich-hime/sando@v1.0.0-beta.1
+go install gamertan.com/sandwich-hime/cmd/himesan@v1.0.0-beta.1
+```
+
+That runtime-first order is intentional for Beta 1. The exact release source
+passed Go 1.25.12 and 1.26.5 on native Windows and executed Linux, and clean
+direct and public Go-proxy installs are verified.
 
 - [Start with the tutorial](https://sandwichhime.com/docs/tutorial/)
 - [Read the documentation](https://sandwichhime.com/docs/)
 - [Inspect the canonical source](https://gitea.speelman.ca/gamertan/sandwich-hime)
 - [Browse the GitHub discovery snapshot](https://github.com/gamertan/sandwich-hime)
 - [Use the 0BSD tutorial starter](https://github.com/gamertan/sandwich-hime-tutorial)
+- [Open the canonical Beta tags](https://gitea.speelman.ca/gamertan/sandwich-hime/tags)
 
 ### [EQL Helper](https://eql.gamertan.com/)
 
