@@ -56,16 +56,6 @@ direct and public Go-proxy installs are verified.
 - [Use the 0BSD tutorial starter](https://github.com/gamertan/sandwich-hime-tutorial)
 - [Open the canonical Beta tags](https://gitea.speelman.ca/gamertan/sandwich-hime/tags)
 
-### [EQL Helper](https://eql.gamertan.com/)
-
-A fast, accessible EverQuest reference built from public EQL Wiki data. It is
-for the wonderfully specific moment when your adventure needs an item, spell,
-NPC, zone, recipe, merchant, or faction answer more quickly than your memory
-can supply it.
-
-- [See the data sources](https://eql.gamertan.com/sources)
-- [Use the developer resources](https://eql.gamertan.com/developers)
-
 ### San — someday
 
 San is a separate programming-language project I am still thinking through and
