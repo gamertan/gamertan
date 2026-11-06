@@ -17,55 +17,48 @@ code. I trust legible code more.
 
 ## Where the work lives
 
-**Gamertan is the public homebase. [Gamertan Gitea](https://gitea.speelman.ca/gamertan)
-is the canonical forge**: source, release history, contribution and security
-instructions, and project stewardship live there.
+**[My Gitea profile](https://gitea.speelman.ca/gamertan) is the starting point
+for public source and releases.** [Gamertan](https://gamertan.com/) brings
+together project overviews, case studies and the work still in development.
 
-This GitHub account exists for discovery and accessibility. Project repositories
-mirrored here are read-only discovery snapshots. If GitHub and Gitea disagree,
-Gitea is authoritative. Please use each canonical repository’s contribution and
-security instructions rather than opening issues or pull requests against a
-mirror.
+I maintain my projects on Gitea. This GitHub profile points to that work;
+the project repositories here are read-only discovery snapshots and may lag
+behind current releases. For current source, release notes, contribution and
+security instructions, please follow the canonical Gitea repository.
 
-## Things worth visiting
+## Selected work
 
-### [Sandwich Hime](https://sandwichhime.com/)
+- **[Future UWindsor](https://gamertan.com/case-studies/uwindsor-future-platform/)** —
+  A university recruitment platform connecting program discovery, institutional
+  information and faculty/editor workflows. I led design, development and
+  production operations, working with university colleagues.
+- **[Sandwich Hime](https://sandwichhime.com/)** — HTML-first templates compiled
+  into typed Go components, with contextual escaping and a small runtime.
+  Stable v1.0.0 supports Linux/amd64 and Apple Silicon macOS/arm64.
+  [Source and releases](https://gitea.speelman.ca/gamertan/sandwich-hime),
+  [tutorial](https://sandwichhime.com/docs/tutorial/),
+  [editor tooling](https://gitea.speelman.ca/gamertan/sandwich-hime-tooling) and
+  [tutorial starter](https://gitea.speelman.ca/gamertan/sandwich-hime-tutorial).
+- **[Web Foundations](https://gitea.speelman.ca/gamertan/web)** — Composable Go
+  libraries for authentication, passkeys, organization permissions, browser
+  security and request handling. Open-source public preview.
+- **[D3JAVIEW](https://gamertan.com/projects/d3jaview/)** — Games and desktop
+  streaming from a Windows PC to a native Mac client, including Windows virtual
+  HID input. In private development and dogfooding; no public installer yet.
+- **[RONB1N](https://gamertan.com/projects/ronb1n/)** — Local videos, Jellyfin and
+  games in a media interface with controller, touch and keyboard navigation.
+  Raspberry Pi and desktop prototypes; public distribution remains in progress.
+- **[Sized](https://gitea.speelman.ca/gamertan/sized) and
+  [SizeQueen](https://gamertan.com/projects/sizequeen/)** — A released Rust
+  disk-usage CLI and a native Mac storage-map preview, making large folders and
+  filesystem use easier to inspect.
+- **[Observatory](https://gamertan.com/projects/observatory/)** — Self-hosted
+  Linux observability with host health, application logs, Grafana integration
+  and accessible tables alongside charts. The current application is in private
+  dogfooding; a walkthrough or preview is available on request.
 
-An HTML-first, ahead-of-time template engine for Go. It keeps the immediate,
-mixed-markup feeling I loved on the old web, then generates typed ordinary Go
-components with contextual escaping and a small production runtime.
-
-**v1.0.0-beta.1 is live** as a signed, installable public beta for classrooms,
-learning, prototypes, and compatibility feedback. It is not a production
-stability promise: interfaces may still change before final v1, and native
-macOS maintainer testing remains provisional until I can run it directly.
-
-```sh
-go get gamertan.com/sandwich-hime/sando@v1.0.0-beta.1
-go install gamertan.com/sandwich-hime/cmd/himesan@v1.0.0-beta.1
-```
-
-That runtime-first order is intentional for Beta 1. The exact release source
-passed Go 1.25.12 and 1.26.5 on native Windows and executed Linux, and clean
-direct and public Go-proxy installs are verified.
-
-- [Start with the tutorial](https://sandwichhime.com/docs/tutorial/)
-- [Read the documentation](https://sandwichhime.com/docs/)
-- [Inspect the canonical source](https://gitea.speelman.ca/gamertan/sandwich-hime)
-- [Browse the GitHub discovery snapshot](https://github.com/gamertan/sandwich-hime)
-- [Use the 0BSD tutorial starter](https://github.com/gamertan/sandwich-hime-tutorial)
-- [Open the canonical Beta tags](https://gitea.speelman.ca/gamertan/sandwich-hime/tags)
-
-### San — someday
-
-San is a separate programming-language project I am still thinking through and
-building privately. It is **not released**, has no supported toolchain, and
-should not be inferred from unfinished experiments or domains. `.san` belongs
-to San; Sandwich Hime templates use `.sando`.
-
-When San has something honest and useful to show, it will have its own
-announcement and canonical home. Until then: the mountain on the horizon, not
-a product claim.
+My work includes AI-assisted development. Project-specific contributor and AI
+attribution belongs with the work; I remain responsible for my review and delivery.
 
 ## A small operating principle
 
